@@ -98,27 +98,27 @@
     align-items: center;
     max-width: 1200px;
     align-items: center;
-    padding: 50px 0;
-    border: 2px solid red;
+    padding: 40px 0 40px 0;
     margin: 0 auto;
     border-radius: 10px;
     width:85%
 
 }
 
-.why-web text{
-    padding: 30px 30px 30px 30px;
+.why-web p{
+    align-items: center;
+    padding: 50px 50px 20px;
 }
 .groups{
     background-color: white;
-    border: 2px solid green;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
     border-radius: 10px;
     margin: 0 auto;
     width: 90%;
-    padding: 15px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .groups-childs{
@@ -127,10 +127,15 @@
 }
 
 .groups-childs img{
-    width: 100%;
-    border: 2px solid green;
-    background-color: transparent;
 
+    height: 300px;
+    width: 300px;
+}
+
+
+.groups-childs .groups-childs-text{
+    padding: 10px 10px 10px 0;
+    
 }
 
 .groups button{
@@ -138,6 +143,10 @@
     background-color: white;
     color: black;
     border: 1px solid black;
+
+}
+.groups-childs-content{
+    padding: 30px 30px 30px 30px;
 }
 
 .my_inspiration{
@@ -148,22 +157,27 @@
     max-width: 1200px;
     align-items: center;
     padding: 50px 0;
-    border: 2px solid red;
     margin: 0 auto;
     border-radius: 10px;
     
 }
 .my_inspiration p{
+    align-items: center;
     padding: 20px 0;
 }
 
-.my_inspiration video{
+.my_inspiration iframe{
     padding: 20px;
     border-radius: 10px;
     color: rgb(147, 155, 163);
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
+.my_inspiration .video{
+    padding: 20px;
+    border: 1px solid rgb(202, 196, 196);
+    border-radius: 30px;
+}
 .My-Current-Target{
     display: flex;
     flex-direction: column;
@@ -172,7 +186,6 @@
     max-width: 1200px;
     align-items: center;
     padding: 50px 0;
-    border: 2px solid red;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -182,7 +195,7 @@
 }
 
 .My-Current-Target .content-container {
-    border: 2px solid red;
+
     border-radius: 10px;
     align-items: center;
     height: 100px;
@@ -248,35 +261,69 @@
     color: black;
     border: none;
     align-items: left;
-    margin-right: 265px;
+    margin-right: 210px;
 }
 
+.content-container{
+    text-align: center;
+}
 
-.I-need-Support-content{
+.I-need-Support .rounded-image{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     align-items: center;
-    border: 2px solid red;
+    padding: 50px 0;
     margin: 0 auto;
+    border-radius: 20px;
+    height: 300px;
+    width: 1200px;
+    border-radius: 1%;
     
 }
 
-.I-need-Support-content img{
-    height: 10%;
-    border-radius: 10px;
+
+.I-need-Support{
+    position: relative;
 }
-.I-need-Support-content h1 {
-    margin-bottom: 20px;
+.I-need-Support-content h1{
+    padding: 20px;
 }
+
+.I-need-Support-content{
+    position: absolute;
+    bottom: 140px;
+    right: 300px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
 .I-need-Support-content .feedback{
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
+    bottom: 70px;
+    right: 300px;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.Suggest-me{
+    width: 430px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color:white;
+    color: black;
 }
 .submit-btn{
     padding: 10px 20px;
@@ -287,8 +334,42 @@
     cursor: pointer;
 }
 
-.footer {
-    margin-top: 20px;
-    font-size: 0.8em;
+footer{
+    border-radius: 10px;
+    background-color:rgb(242, 242, 242);
+    max-width: 1440px;
 }
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px 0;
+    margin: 0 auto;
+    
+}
+.footer-content .text{
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 1200px;
+    width: 50%;
+}
+
+.footer-content.image{
+
+    bottom: 70px;
+    right: 300px;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+
+}
+.footer img{
+    width: 5%;
+    padding: 5px;
+
+}
+
 
