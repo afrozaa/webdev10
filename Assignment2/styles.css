@@ -377,7 +377,7 @@ input, select{
 }
 
 .meet-our-team-container {
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 }
 .meet-our-team-container p{
     color: #c0bcbc;
@@ -396,9 +396,7 @@ input, select{
 .meet-our-team-child-first img{
     width: 470px;
     background-size: cover;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     border-radius: 10%;
     filter: brightness(80%);
 
@@ -413,8 +411,7 @@ input, select{
 .meet-our-team-child-second img{
     background-size: cover;
     width: 470px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     border-radius: 10%;
     filter: brightness(80%);
 
