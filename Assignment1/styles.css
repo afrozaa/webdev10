@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar-wrapper{
+    background-color: white;
+}
+
+/* navbas css */
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.nav-menu-button{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+
+/* banner start*/
+
+.main-content{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+
+.banner{
+    background-image: url('Assets/Hero-bg.png');
+}
+
+.banner-main{
+    max-width: 1440px;
+    
+}
+
+.banner-child img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 240px;
+    margin: 0 auto;
+}
+.banner-child{
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.banner-child p{
+    padding: 15px;
+
+}
+
+.banner-child button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+    
+
+/* banner end*/
+
+/* body start */
+
+
+.why-web-total{
+    padding: 15px;
+    
+}
+
+.why-web{
+    background-color:rgb(242, 242, 242);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    margin: 0 auto;
+    border-radius: 10px;
+    width:85%
+
+}
+
+.why-web p{
+    align-items: center;
+    padding: 50px 50px 20px;
+}
+.groups{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.groups-childs{
+    width: 38%;
+    padding: 15px;
+}
+
+.groups-childs img{
+
+    height: 300px;
+    width: 300px;
+}
+
+
+.groups-childs .groups-childs-text{
+    padding: 10px 10px 10px 0;
+    
+}
+
+.groups button{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+.groups-childs-content{
+    padding: 30px 30px 30px 30px;
+}
+
+.my_inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    align-items: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+.my_inspiration p{
+    align-items: center;
+    padding: 20px 0;
+}
+
+.my_inspiration iframe{
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(147, 155, 163);
+    border-radius: 30px;
+}
+
+.my_inspiration .video{
+    padding: 20px;
+    border: 1px solid rgb(202, 196, 196);
+    border-radius: 30px;
+}
+.My-Current-Target{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    align-items: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.My-Current-Target p{
+    padding: 20px 0;
+}
+
+.My-Current-Target .content-container {
+
+    border-radius: 10px;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+}
+
+.My-Current-Target .box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 300px;
+   
+}
+
+.My-Current-Target .red-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    background-color: rgb(252, 217, 217);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.My-Current-Target .blue-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    background-color: rgb(237, 238, 248);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.My-Current-Target .yellow-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    background-color: rgb(245, 247, 226);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.My-Current-Target img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+
+.My-Current-Target button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    align-items: left;
+    margin-right: 210px;
+}
+
+.content-container{
+    text-align: center;
+}
+
+.I-need-Support .rounded-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    align-items: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 300px;
+    width: 1200px;
+    border-radius: 1%;
+    
+}
+
+
+.I-need-Support{
+    position: relative;
+}
+.I-need-Support-content h1{
+    padding: 20px;
+}
+
+.I-need-Support-content{
+    position: absolute;
+    bottom: 140px;
+    right: 300px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.I-need-Support-content .feedback{
+    bottom: 70px;
+    right: 300px;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.Suggest-me{
+    width: 430px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:white;
+    color: black;
+}
+.submit-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+    border-radius: 10px;
+    background-color:rgb(242, 242, 242);
+    max-width: 1440px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px 0;
+    margin: 0 auto;
+    
+}
+.footer-content .text{
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 1200px;
+    width: 50%;
+}
+
+.footer-content.image{
+
+    bottom: 70px;
+    right: 300px;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+
+}
+.footer img{
+    width: 5%;
+    padding: 5px;
+
+}
+
+
